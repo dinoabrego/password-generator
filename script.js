@@ -81,9 +81,9 @@ function generatePassword() {
       console.log(userPassword);
     }
   
-  var blankPassword = [];
-  var password = blankPassword.join("");
-  console.log("Your Pasword is: " + password);
+  //return the value of password
+  var password = userPassword;
+  console.log("Your Password is: " + password);
   return password;
   
 }
